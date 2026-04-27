@@ -113,113 +113,142 @@ though it notes that it is **not** GPL-compatible.
 #### Side-by-side license text
 
 <table>
-<thead><tr><th>SimPL 2.0</th><th>MS-RL</th></tr></thead>
-<tbody><tr>
-<td>
-<pre>
-# Simple Public License (SimPL) 2.0
+<tr>
+  <th style="width: 50%;">Simple Public License (SimPL) 2.0</th>
+  <th style="width: 50%;">Microsoft Reciprocal License (Ms-RL)</th>
+</tr>
+<tr><td style="vertical-align: top;">
 
-The SimPL applies to the software's source and object code
-and comes with any rights that I have in it (other than trademarks).
-You agree to the SimPL by copying, distributing, or making a derivative work of the software.
+  <p>
+    The SimPL applies to the software's source and object code
+    and comes with any rights that I have in it (other than trademarks).
+    You agree to the SimPL by copying, distributing, or making a derivative work of the software.
+  </p>
 
-You get the royalty free right to:
+  <p>You get the royalty free right to:</p>
+  <ul>
+    <li>Use the software for any purpose;</li>
+    <li>Make derivative works of it (this is called a "Derived Work");</li>
+    <li>Copy and distribute it and any Derived Work.</li>
+  </ul>
 
-- Use the software for any purpose;
-- Make derivative works of it (this is called a "Derived Work");
-- Copy and distribute it and any Derived Work.
+  <p>If you distribute the software or a Derived Work, you must give back to the community by:</p>
+  <ul>
+    <li>
+      Prominently noting the date of any changes you make;
+    </li><li>
+      Leaving other people's copyright notices, warranty disclaimers, and license terms in place;
+    </li><li>
+      Providing the source code, build scripts, installation scripts, and interface definitions
+      in a form that is easy to get and best to modify;
+    </li><li>
+      Licensing it to everyone under SimPL, or substantially similar terms (such as GPL 2.0),
+      without adding further restrictions to the rights provided;
+    </li><li>
+      Conspicuously announcing that it is available under that license.
+    </li>
+  </ul>
 
-If you distribute the software or a Derived Work, you must give back to the community by:
+  <p>There are some things that you must shoulder:</p>
+  <ul>
+    <li>You get NO WARRANTIES. None of any kind;</li>
+    <li>
+      If the software damages you in any way, you may only recover direct damages
+      up to the amount you paid for it (that is zero if you did not pay anything).
+      You may not recover any other damages, including those called "consequential damages".
+      (The state or country where you live may not allow you to limit your liability in this way,
+      so this may not apply to you);
+    </li>
+  </ul>
 
-- Prominently noting the date of any changes you make;
-- Leaving other people's copyright notices, warranty disclaimers, and license terms in place;
-- Providing the source code, build scripts, installation scripts, and interface definitions
-  in a form that is easy to get and best to modify;
-- Licensing it to everyone under SimPL, or substantially similar terms (such as GPL 2.0),
-  without adding further restrictions to the rights provided;
-- Conspicuously announcing that it is available under that license.
+  <p>The SimPL continues perpetually, except that your license rights end automatically if:</p>
+  <ul>
+    <li>
+      You do not abide by the "give back to the community" terms
+      (your licensees get to keep their rights if they abide);
+    </li>
+    <li>Anyone prevents you from distributing the software under the terms of the SimPL.</li>
+  </ul>
 
-There are some things that you must shoulder:
+</td><td style="vertical-align: top;">
 
-- You get NO WARRANTIES. None of any kind;
-- If the software damages you in any way, you may only recover direct damages
-  up to the amount you paid for it (that is zero if you did not pay anything).
-  You may not recover any other damages, including those called "consequential damages".
-  (The state or country where you live may not allow you to limit your liability in this way,
-  so this may not apply to you);
+  <p>
+    This license governs use of the accompanying software.
+    If you use the software, you accept this license.
+    If you do not accept the license, do not use the software.
+  </p>
 
-The SimPL continues perpetually, except that your license rights end automatically if:
+  <ol style="padding-left: 1em;">
+    <li>
+      <p>Definitions</p>
+      <ul style="list-style-type: disc; padding-left: 1em;">
+        <li>
+          The terms "reproduce," "reproduction," "derivative works," and "distribution"
+          have the same meaning here as under U.S. copyright law.
+        </li><li>
+          A "contribution" is the original software, or any additions or changes to the software.
+        </li><li>
+          A "contributor" is any person that distributes its contribution under this license.
+        </li><li>
+          "Licensed patents" are a contributor's patent claims that read directly on its contribution.
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Grant of Rights</p>
+      <ol style="list-style-type: upper-alpha; padding-left: 1em;">
+          <li>
+            <i>Copyright Grant-</i>
+            Subject to the terms of this license, including the license conditions and limitations in section 3,
+            each contributor grants you a non-exclusive, worldwide, royalty-free copyright license
+            to reproduce its contribution, prepare derivative works of its contribution, and distribute
+            its contribution or any derivative works that you create.
+          </li><li>
+            <i>Patent Grant-</i>
+            Subject to the terms of this license, including the license conditions and limitations in section 3,
+            each contributor grants you a non-exclusive, worldwide, royalty-free license under its licensed patents
+            to make, have made, use, sell, offer for sale, import, and/or otherwise dispose of
+            its contribution in the software or derivative works of the contribution in the software.
+          </li>
+      </ol>
+    </li>
+    <li>
+      <p>Conditions and Limitations</p>
+      <ol style="list-style-type: upper-alpha; padding-left: 1em;">
+        <li>
+          <i>Reciprocal Grants-</i>
+          For any file you distribute that contains code from the software (in source code or binary format),
+          you must provide recipients the source code to that file along with a copy of this license,
+          which license will govern that file.
+          You may license other files that are entirely your own work
+          and do not contain code from the software under any terms you choose.
+        </li><li>
+          <i>No Trademark License-</i>
+          This license does not grant you rights to use any contributors' name, logo, or trademarks.
+        </li><li>
+          If you bring a patent claim against any contributor over patents that you claim are infringed by the software,
+          your patent license from such contributor to the software ends automatically.
+        </li><li>
+          If you distribute any portion of the software,
+          you must retain all copyright, patent, trademark, and attribution notices
+          that are present in the software.
+        </li><li>
+          If you distribute any portion of the software in source code form,
+          you may do so only under this license by including a complete copy of this license with your distribution.
+          If you distribute any portion of the software in compiled or object code form,
+          you may only do so under a license that complies with this license.
+        </li><li>
+          The software is licensed "as-is." You bear the risk of using it.
+          The contributors give no express warranties, guarantees, or conditions.
+          You may have additional consumer rights under your local laws which this license cannot change.
+          To the extent permitted under your local laws, the contributors exclude the implied warranties
+          of merchantability, fitness for a particular purpose and non-infringement.
+        </li>
+      </ol>
+    </li>
+  </ol>
 
-- You do not abide by the "give back to the community" terms
-  (your licensees get to keep their rights if they abide);
-- Anyone prevents you from distributing the software under the terms of the SimPL.
-</pre>
-</td>
-<td>
-<pre>
-# Microsoft Reciprocal License (Ms-RL)
-
-This license governs use of the accompanying software.
-If you use the software, you accept this license.
-If you do not accept the license, do not use the software.
-
-1.  Definitions
-
-    The terms "reproduce," "reproduction," "derivative works," and "distribution"
-    have the same meaning here as under U.S. copyright law.
-
-    A "contribution" is the original software, or any additions or changes to the software.
-
-    A "contributor" is any person that distributes its contribution under this license.
-
-    "Licensed patents" are a contributor's patent claims that read directly on its contribution.
-
-2.  Grant of Rights
-
-    (A) Copyright Grant- Subject to the terms of this license,
-    including the license conditions and limitations in section 3,
-    each contributor grants you a non-exclusive, worldwide, royalty-free copyright license
-    to reproduce its contribution, prepare derivative works of its contribution,
-    and distribute its contribution or any derivative works that you create.
-
-    (B) Patent Grant- Subject to the terms of this license,
-    including the license conditions and limitations in section 3,
-    each contributor grants you a non-exclusive, worldwide, royalty-free license
-    under its licensed patents to make, have made, use, sell, offer for sale, import,
-    and/or otherwise dispose of its contribution in the software
-    or derivative works of the contribution in the software.
-
-3.  Conditions and Limitations
-
-    (A) Reciprocal Grants- For any file you distribute that contains code from the software
-    (in source code or binary format), you must provide recipients the source code to that file
-    along with a copy of this license, which license will govern that file.
-    You may license other files that are entirely your own work
-    and do not contain code from the software under any terms you choose.
-
-    (B) No Trademark License- This license does not grant you rights to use any contributors' name,
-    logo, or trademarks.
-
-    (C) If you bring a patent claim against any contributor over patents that you claim
-    are infringed by the software, your patent license from such contributor to the software
-    ends automatically.
-
-    (D) If you distribute any portion of the software, you must retain all copyright, patent,
-    trademark, and attribution notices that are present in the software.
-
-    (E) If you distribute any portion of the software in source code form, you may do so
-    only under this license by including a complete copy of this license with your distribution.
-    If you distribute any portion of the software in compiled or object code form,
-    you may only do so under a license that complies with this license.
-
-    (F) The software is licensed "as-is." You bear the risk of using it.
-    The contributors give no express warranties, guarantees, or conditions.
-    You may have additional consumer rights under your local laws which this license cannot change.
-    To the extent permitted under your local laws, the contributors exclude the implied warranties
-    of merchantability, fitness for a particular purpose and non-infringement.
-</pre>
-</td>
-</tr></tbody>
+</td></tr>
 </table>
 
 #### Key differences
