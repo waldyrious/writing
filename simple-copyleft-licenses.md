@@ -116,8 +116,7 @@ though it notes that it is **not** GPL-compatible.
 <thead><tr><th>SimPL 2.0</th><th>MS-RL</th></tr></thead>
 <tbody><tr>
 <td>
-
-```md
+<pre>
 # Simple Public License (SimPL) 2.0
 
 The SimPL applies to the software's source and object code
@@ -154,12 +153,10 @@ The SimPL continues perpetually, except that your license rights end automatical
 - You do not abide by the "give back to the community" terms
   (your licensees get to keep their rights if they abide);
 - Anyone prevents you from distributing the software under the terms of the SimPL.
-```
-
+</pre>
 </td>
 <td>
-
-```md
+<pre>
 # Microsoft Reciprocal License (Ms-RL)
 
 This license governs use of the accompanying software.
@@ -220,8 +217,7 @@ If you do not accept the license, do not use the software.
     You may have additional consumer rights under your local laws which this license cannot change.
     To the extent permitted under your local laws, the contributors exclude the implied warranties
     of merchantability, fitness for a particular purpose and non-infringement.
-```
-
+</pre>
 </td>
 </tr></tbody>
 </table>
