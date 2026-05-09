@@ -201,13 +201,13 @@ though it notes that it is **not** GPL-compatible.
       <p>Grant of Rights</p>
       <ol style="list-style-type: upper-alpha; padding-left: 1em;">
           <li>
-            <i>Copyright Grant-</i>
+            <i>Copyright Grant -</i>
             Subject to the terms of this license, including the license conditions and limitations in section 3,
             each contributor grants you a non-exclusive, worldwide, royalty-free copyright license
             to reproduce its contribution, prepare derivative works of its contribution, and distribute
             its contribution or any derivative works that you create.
           </li><li>
-            <i>Patent Grant-</i>
+            <i>Patent Grant -</i>
             Subject to the terms of this license, including the license conditions and limitations in section 3,
             each contributor grants you a non-exclusive, worldwide, royalty-free license under its licensed patents
             to make, have made, use, sell, offer for sale, import, and/or otherwise dispose of
@@ -219,14 +219,14 @@ though it notes that it is **not** GPL-compatible.
       <p>Conditions and Limitations</p>
       <ol style="list-style-type: upper-alpha; padding-left: 1em;">
         <li>
-          <i>Reciprocal Grants-</i>
+          <i>Reciprocal Grants -</i>
           For any file you distribute that contains code from the software (in source code or binary format),
           you must provide recipients the source code to that file along with a copy of this license,
           which license will govern that file.
           You may license other files that are entirely your own work
           and do not contain code from the software under any terms you choose.
         </li><li>
-          <i>No Trademark License-</i>
+          <i>No Trademark License -</i>
           This license does not grant you rights to use any contributors' name, logo, or trademarks.
         </li><li>
           If you bring a patent claim against any contributor over patents that you claim are infringed by the software,
