@@ -1,3 +1,7 @@
+---
+title: Lightweight copyleft licenses — and the case for SimPL 2.0
+---
+
 # Lightweight copyleft licenses — and the case for SimPL 2.0
 
 > ### TL;DR
