@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title | default: "Writing" }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+</head>
+<body>
+<header>
+  <nav>
+    <a href="https://waldyrious.net" id="homelink">waldyrious.net</a>
+    <a href="https://waldyrious.net/cv.xhtml">CV</a>
+    | <a href="https://waldyrious.net/bio.xhtml">Bio</a>
+    | <a href="https://waldyrious.net/profiles.xhtml">Profiles</a>
+    | <a href="{{ '/' | relative_url }}">Writing</a>
+  </nav>
+</header>
+<div class="container">
+  {{ content }}
+</div>
+</body>
+</html>

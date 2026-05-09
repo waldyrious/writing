@@ -1,3 +1,6 @@
 # Jekyll configuration for GitHub pages
 
-title: "" # Omit title at the top of the page
+defaults:
+  - scope: {} # Not scoped — apply these defaults to all pages
+    values:
+      layout: "waldyrious_net"

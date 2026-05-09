@@ -1,0 +1,51 @@
+@import url(https://unpkg.com/sanitize.css@13.0.0/sanitize.css);
+@import url(https://rawcdn.githack.com/waldyrious/downstyler/4c681a41d852381fae0fc476faaefcccaf616c44/downstyler.css);
+
+/* Header styles */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 3em;
+  border-bottom: 4px solid YellowGreen;
+  background: #333;
+  z-index: 1;
+}
+
+nav {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 0 1em;
+  line-height: 3em;
+  color: grey;
+  white-space: nowrap;
+  text-align: right;
+  font-family: sans-serif;
+}
+
+header a[href] { color: white; text-decoration: none; }
+
+header a[href]:visited { color: silver; }
+
+header a#homelink:visited { color: white; }
+
+header a:hover { text-decoration: underline; }
+
+header a#homelink:hover { text-decoration: none; }
+
+header a#homelink {
+  font-family: sans-serif;
+  font-size: 150%;
+  float: left;
+  padding-right: 0.5em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+/* Content styles */
+
+.container {
+  margin-top: calc(3em + 4px); /* make room for the fixed navbar (3em height + 4px border) */
+}
