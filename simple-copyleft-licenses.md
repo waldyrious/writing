@@ -112,7 +112,7 @@ though it notes that it is **not** GPL-compatible.
 
 #### Side-by-side license text
 
-<table>
+<table style="width: 80vw; position: relative; left: 50%; transform: translate(-50%);">
 <tr>
   <th style="width: 50%;">Simple Public License (SimPL) 2.0</th>
   <th style="width: 50%;">Microsoft Reciprocal License (Ms-RL)</th>
