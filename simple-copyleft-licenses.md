@@ -120,7 +120,6 @@ though it notes that it is **not** GPL-compatible.
   <p>
     The SimPL applies to the software's source and object code
     and comes with any rights that I have in it (other than trademarks).
-    <br/>
     You agree to the SimPL by copying, distributing, or making a derivative work of the software.
   </p>
 
@@ -154,9 +153,7 @@ though it notes that it is **not** GPL-compatible.
     <li>
       If the software damages you in any way, you may only recover direct damages
       up to the amount you paid for it (that is zero if you did not pay anything).
-      <br/>
       You may not recover any other damages, including those called "consequential damages".
-      <br/>
       (The state or country where you live may not allow you to limit your liability in this way,
       so this may not apply to you);
     </li>
