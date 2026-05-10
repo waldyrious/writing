@@ -112,12 +112,10 @@ though it notes that it is **not** GPL-compatible.
 
 #### Side-by-side license text
 
-<table style="width: 80vw; max-width: 140em; position: relative; left: 50%; transform: translate(-50%);">
-<tr>
-  <th style="width: 50%;">Simple Public License (SimPL) 2.0</th>
-  <th style="width: 50%;">Microsoft Reciprocal License (Ms-RL)</th>
-</tr>
-<tr><td style="vertical-align: top;">
+<table style="width: 80vw; max-width: 140em; position: relative; left: 50%; transform: translate(-50%); border-collapse: separate; border-spacing: 0.5em 0;">
+<tr><td style="width: 50%; vertical-align: top; background: #f9f9f0; line-height: 1.25;">
+
+  <h5 style="text-align: center;">Simple Public License (SimPL) 2.0</h5>
 
   <p>
     The SimPL applies to the software's source and object code
@@ -173,7 +171,9 @@ though it notes that it is **not** GPL-compatible.
     <li>Anyone prevents you from distributing the software under the terms of the SimPL.</li>
   </ul>
 
-</td><td style="vertical-align: top;">
+</td><td style="width: 50%; vertical-align: top; background: #f9f9f0; line-height: 1.25;">
+
+  <h5 style="text-align: center;">Microsoft Reciprocal License (Ms-RL)</h5>
 
   <p>
     This license governs use of the accompanying software.
