@@ -1,5 +1,4 @@
 ---
-title: Writing
 ---
 
 # Writing
