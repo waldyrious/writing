@@ -112,7 +112,7 @@ though it notes that it is **not** GPL-compatible.
 
 #### Side-by-side license text
 
-<table style="width: 80vw; max-width: 140em; position: relative; left: 50%; transform: translate(-50%); border-collapse: separate; border-spacing: 0.5em 0;">
+<table style="width: clamp(100%, 80vw, 140em); position: relative; left: 50%; transform: translate(-50%); border-collapse: separate; border-spacing: 0.5em 0;">
 <tr><td style="width: 50%; vertical-align: top; background: #f9f9f0; line-height: 1.25;">
 
   <h5 style="text-align: center;">Simple Public License (SimPL) 2.0</h5>
