@@ -119,11 +119,11 @@ though it notes that it is **not** GPL-compatible.
 
   <p>
     The SimPL applies to the software's source and object code
-    and comes with any rights that I have in it (other than trademarks).
+    and comes with any rights that I have in it (other than trademarks).
     You agree to the SimPL by copying, distributing, or making a derivative work of the software.
   </p>
 
-  <p>You get the royalty free right to:</p>
+  <p>You get the royalty free right to:</p>
   <ul>
     <li>Use the software for any purpose;</li>
     <li>Make derivative works of it (this is called a "Derived Work");</li>
@@ -133,14 +133,14 @@ though it notes that it is **not** GPL-compatible.
   <p>If you distribute the software or a Derived Work, you must give back to the community by:</p>
   <ul>
     <li>
-      Prominently noting the date of any changes you make;
+      Prominently noting the date of any changes you make;
     </li><li>
-      Leaving other people's copyright notices, warranty disclaimers, and license terms in place;
+      Leaving other people's copyright notices, warranty disclaimers, and license terms in place;
     </li><li>
       Providing the source code, build scripts, installation scripts, and interface definitions
       in a form that is easy to get and best to modify;
     </li><li>
-      Licensing it to everyone under SimPL, or substantially similar terms (such as GPL 2.0),
+      Licensing it to everyone under SimPL, or substantially similar terms (such as GPL 2.0),
       without adding further restrictions to the rights provided;
     </li><li>
       Conspicuously announcing that it is available under that license.
