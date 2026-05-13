@@ -7,34 +7,34 @@
 
 ## Background and motivation
 
-Options for [permissive free software licenses][permissive-license] abound,
-and include some of the most popular licenses,
-ranging from simple and readable ones such as MIT, BSD or ISC,
-to longer and more detailed ones like Apache or Artistic.
+Many developers choose to release their software
+under a [copyleft (share-alike) license][reciprocal-license],
+to ensure that any software building upon it must also be shared openly on similar terms,
+thus actively contributing to the [digital commons][digital-commons].
 
-On the other hand, [reciprocal (copyleft) free software licenses][reciprocal-license]
-tend to cluster primarily in the verbose end of the spectrum
-— for example, the GNU General Public License (GPL) or the Mozilla Public License (MPL).
-This leaves those who want to ensure their software contributes to a protected commons
-(i.e. requiring that software that builds upon it is also shared openly on similar terms),
-having almost no options for simple, approachable copyleft licenses to use.
+However, the most well-known options for copyleft licenses,
+such as the GNU General Public License (GPL) or the Mozilla Public License (MPL),
+tend to be relatively long and complex documents.
+This can make their use less appealing,
+as both users and maintainers of free software (who are normally not legal experts)
+may feel uncertain whether they fully understand what they're agreeing to.
 
-This may seem like a frivolous or inconsequential matter,
-but the notorious popularity of the MIT license,
-as well as the rapid dissemination of the Creative Commons licenses
+This is in stark contrast to the [permissive][permissive-license]
+side of open source, where short and readable licenses like MIT, BSD, and ISC
+have flourished alongside longer and more detailed ones like Apache or Artistic.
+
+The remarkable popularity of the MIT license,
+as well as the rapid dissemination of the Creative Commons licenses,
 clearly indicate that there is appetite for straightforward, legible agreements
 whose conciseness and clarity provide confidence to both licensors and licensees.
 
-This factor is especially important in the highly distributed open source ecosystem,
-whose participants are often hobbyists, and generally discouraged by bureaucracy
-such as handling the legal complexities of software licensing.
-
-It is therefore quite a relevant question, for those who prefer a share-alike arrangement,
-whether there are licenses providing such terms in clear and readable prose,
-as opposed to the legalese-ridden "walls of text" that licenses can often become.
+That appetite is equally present among developers who prefer share-alike terms,
+but it is underserved by current well-known copyleft licenses.
+This doesn't have to be the case, as shown below.
 
 [permissive-license]: https://en.wikipedia.org/wiki/Permissive_software_license
 [reciprocal-license]: https://en.wikipedia.org/wiki/Copyleft
+[digital-commons]: https://en.wikipedia.org/wiki/Digital_commons
 
 ## Survey of existing options
 
