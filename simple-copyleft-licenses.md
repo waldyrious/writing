@@ -57,8 +57,7 @@ Two licenses, however, stand out from this set:
 
 SimPL was originally drafted by Robert W. Gomulkiewicz,
 an intellectual property law scholar from the University of Washington School of Law,
-in a [2005 paper](https://houstonlawreview.org/article/4788-general-public-license-3-0-hacking-the-free-software-movements-constitution)
-published in volume 42, issue 4 of the _Houston Law Review_.
+and published in a [2005 paper in the Houston Law Review][hous-law-rev-2025].
 
 Its own text describes it as a plain-language implementation of GPL 2.0.
 That makes it an interesting option for projects that want reciprocity
@@ -69,11 +68,12 @@ is that it has been formally [approved by the OSI](https://opensource.org/licens
 It also has an [SPDX identifier](https://spdx.org/licenses/SimPL-2.0.html) (`SimPL-2.0`),
 and even an [entry at tl;drLegal](https://www.tldrlegal.com/license/simple-public-license-2-0-simpl).
 
-It's worth noting that, despite the SimPL's explicit design goal of matching the terms of GPL 2.0,
-the FSF has not explicitly assessed the SimPL in its [list of free licenses][fsf-license-list];
-therefore, although it is almost certain to match the FSF's criteria for free software licenses,
-and is also likely GPL-compatible, neither conclusion has been confirmed by the FSF yet.
+Given that SimPL was written with the explicit goal of matching the terms of GPL 2.0,
+it complies by design with the FSF's criteria for free software licenses,
+and is therefore likely GPL-compatible
+— though the FSF has not yet [declared that explicitly][fsf-license-list].
 
+[hous-law-rev-2025]: https://houstonlawreview.org/article/4788-general-public-license-3-0-hacking-the-free-software-movements-constitution
 [fsf-license-list]: https://www.gnu.org/licenses/license-list.en.html
 
 ### Microsoft Reciprocal License (MS-RL)
