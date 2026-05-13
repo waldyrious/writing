@@ -84,8 +84,8 @@ In the corresponding [discussion][ms-rl-osi] on the OSI license list,
 Microsoft explicitly stated that it sought to draft a license that was
 "simple, short, and easy-to-understand".
 
-The license has been [approved by the OSI](https://opensource.org/license/ms-rl),
-and it also has an [SPDX identifier](https://spdx.org/licenses/MS-RL.html) (`MS-RL`)
+Like the SimPL 2.0, MS-RL is [approved by the OSI](https://opensource.org/license/ms-rl),
+has a registered [SPDX identifier](https://spdx.org/licenses/MS-RL.html) (`MS-RL`)
 and an entry at [tl;drLegal](https://www.tldrlegal.com/license/microsoft-reciprocal-license-ms-rl).
 
 Interestingly (especially in contrast to the SimPL),
