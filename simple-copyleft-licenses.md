@@ -1,4 +1,4 @@
-# Lightweight copyleft licenses — and the case for SimPL 2.0
+# There's a MIT-sized copyleft license — and more people should be using it
 
 > ### TL;DR
 > **SimPL 2.0** and **MS-RL** are OSI-approved, SPDX-listed copyleft licenses
