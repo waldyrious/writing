@@ -284,13 +284,13 @@ depending on the individual preferences.
 
 ## Conclusion
 
-Based on the discussion above, it can be concluded that
-**SimPL 2.0 and MS-RL are viable options for concise, layman-friendly reciprocal licenses**,
-featuring institutional recognition and established ecosystem metadata,
-and thus filling the gap of a simple, readable alternative to copyleft licenses
-such as the GPL or the MPL.
+If you want a short, readable copyleft license, **SimPL 2.0** is a great choice:
+it is institutionally recognized, ecosystem-ready, shorter than the alternatives,
+and explicitly designed to be the plain-language equivalent of the GPL.
 
-In other words, **SimPL and MS-RL are the copyleft analogs to short permissive licenses like the MIT or BSD**.
+If you specifically prefer file-level copyleft
+(where only the files containing your code need to be shared back, rather than the project as a whole),
+**MS-RL** is a solid runner-up that fulfills the same goal of simple, approachable licensing.
 
 ## How to use SimPL or MS-RL in a software project
 
