@@ -1,9 +1,9 @@
 # There's a MIT-sized copyleft license — and more people should be using it
 
 > ### TL;DR
-> **SimPL 2.0** and **MS-RL** are OSI-approved, SPDX-listed copyleft licenses
-> that can be used as a concise and easy-to-read alternative
-> to the GPL, the MPL, or other copyleft licenses.
+> **SimPL 2.0** and **MS-RL** are robust, vetted copyleft licenses
+> short enough to fit on a single page —the share-alike equivalents of MIT and BSD—
+> yet most developers have never heard of them.
 
 ## Background and motivation
 
