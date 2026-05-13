@@ -99,6 +99,8 @@ though it notes that it is **not** GPL-compatible.
 
 #### Side-by-side license text
 
+Here are both licenses in full, showing how they easily fit on a single page of text:
+
 <table style="width: clamp(100%, 80vw, 140em); position: relative; left: 50%; transform: translate(-50%); border-collapse: separate; border-spacing: 0.5em 0;">
 <tr><td style="width: 50%; vertical-align: top; background: #f9f9f0; line-height: 1.25;">
 
@@ -255,7 +257,8 @@ so feel free to ignore them.
 Points 2 and 3, while being arguably somewhat minor,
 are nevertheless valid arguments in favor of the SimPL.
 
-Point 1 is perhaps the most important for someone making a choice between the two:
+The distinction from Point 1, regarding copyleft scope,
+is perhaps the most important factor for someone making a choice between the two:
 MS-RL differs from SimPL in that its reciprocity (share-alike) requirements
 apply only to individual files of the derivative work (clause 3.A),
 i.e. only those that contain code from the covered software,
