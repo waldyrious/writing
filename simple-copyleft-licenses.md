@@ -38,30 +38,17 @@ This doesn't have to be the case, as shown below.
 
 ## Survey of existing options
 
-There are various proposals for concise licenses of the reciprocal kind
-but none of them have garnered significant usage,
-and most haven't been included in curated lists of software licenses.
+A few proposals for concise, readable copyleft licenses have been put forth,
+but they tend to lack institutional recognition
+(from the OSI, FSF, and in many cases even an SPDX identifier)
+and have generally not achieved broad adoption.
+A notable example is Kyle E. Mitchell's [Parity Public License](https://paritylicense.com),
+among others like [Round Robin](https://roundrobinlicense.com),
+[Patches Back](https://github.com/berneout/patches-back-public-license),
+[Maximaleft](https://github.com/berneout/maximaleft) and
+[Libre Source](https://github.com/MoritzMaxeiner/libre-source-license).
 
-Several such options are licenses proposed by Kyle E. Mitchell,
-most notably the [Parity Public License][parity],
-but also [Round Robin][round-robin], [Patches Back][patches-back] and [Maximaleft][maximaleft].
-There is also the [Libre Source][libre-source],
-a derivative of the Patches Back license proposed by Moritz Maxeiner,
-which has since been abandoned (as has Patches Back, for that matter).
-
-[parity]: https://paritylicense.com
-[round-robin]: https://roundrobinlicense.com
-[maximaleft]: https://github.com/berneout/maximaleft
-[patches-back]: https://github.com/berneout/patches-back-public-license
-[libre-source]: https://github.com/MoritzMaxeiner/libre-source-license
-
-Of these, the Parity is the only one seeing any notable [adoption][parity-usage]
-and the only one with an [SPDX identifier](https://spdx.org/licenses/Parity-7.0.0.html);
-but it is not recognized by the OSI or the FSF, and neither are any of the others.
-
-[parity-usage]: https://github.com/search?q=%22Parity%20Public%20License%22+path%3A%2F%5E%28licen%5Bcs%5De%7Ccopying%29%28%5C.md%7C%5C.txt%29%3F%24%2F+NOT+is%3Afork+NOT+is%3Aarchived&type=code
-
-Two licenses, however, stand out from the set:
+Two licenses, however, stand out from this set:
 
 - The Simple Public License 2.0 (SimPL-2.0)
 - The Microsoft Reciprocal License (MS-RL)
