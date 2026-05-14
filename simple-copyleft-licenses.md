@@ -1,67 +1,54 @@
-# Lightweight copyleft licenses — and the case for SimPL 2.0
+# There's a MIT-sized copyleft license — and more people should be using it
 
 > ### TL;DR
-> **SimPL 2.0** and **MS-RL** are OSI-approved, SPDX-listed copyleft licenses
-> that can be used as a concise and easy-to-read alternative
-> to the GPL, the MPL, or other copyleft licenses.
+> **SimPL 2.0** and **MS-RL** are robust, vetted copyleft licenses
+> short enough to fit on a single page —the share-alike equivalents of MIT and BSD—
+> yet most developers have never heard of them.
 
 ## Background and motivation
 
-Options for [permissive free software licenses][permissive-license] abound,
-and include some of the most popular licenses,
-ranging from simple and readable ones such as MIT, BSD or ISC,
-to longer and more detailed ones like Apache or Artistic.
+Many developers choose to release their software
+under a [copyleft (share-alike) license][reciprocal-license],
+to ensure that any software building upon it must also be shared openly on similar terms,
+thus actively contributing to the [digital commons][digital-commons].
 
-On the other hand, [reciprocal (copyleft) free software licenses][reciprocal-license]
-tend to cluster primarily in the verbose end of the spectrum
-— for example, the GNU General Public License (GPL) or the Mozilla Public License (MPL).
-This leaves those who want to ensure their software contributes to a protected commons
-(i.e. requiring that software that builds upon it is also shared openly on similar terms),
-having almost no options for simple, approachable copyleft licenses to use.
+However, the most well-known options for copyleft licenses,
+such as the GNU General Public License (GPL) or the Mozilla Public License (MPL),
+tend to be relatively long and complex documents.
+This can make their use less appealing,
+as both users and maintainers of free software (who are normally not legal experts)
+may feel uncertain whether they fully understand what they're agreeing to.
 
-This may seem like a frivolous or inconsequential matter,
-but the notorious popularity of the MIT license,
-as well as the rapid dissemination of the Creative Commons licenses
+This is in stark contrast to the [permissive][permissive-license]
+side of open source, where short and readable licenses like MIT, BSD, and ISC
+have flourished alongside longer and more detailed ones like Apache or Artistic.
+
+The remarkable popularity of the MIT license,
+as well as the rapid dissemination of the Creative Commons licenses,
 clearly indicate that there is appetite for straightforward, legible agreements
 whose conciseness and clarity provide confidence to both licensors and licensees.
 
-This factor is especially important in the highly distributed open source ecosystem,
-whose participants are often hobbyists, and generally discouraged by bureaucracy
-such as handling the legal complexities of software licensing.
-
-It is therefore quite a relevant question, for those who prefer a share-alike arrangement,
-whether there are licenses providing such terms in clear and readable prose,
-as opposed to the legalese-ridden "walls of text" that licenses can often become.
+That appetite is equally present among developers who prefer share-alike terms,
+but it is underserved by current well-known copyleft licenses.
+This doesn't have to be the case, as shown below.
 
 [permissive-license]: https://en.wikipedia.org/wiki/Permissive_software_license
 [reciprocal-license]: https://en.wikipedia.org/wiki/Copyleft
+[digital-commons]: https://en.wikipedia.org/wiki/Digital_commons
 
 ## Survey of existing options
 
-There are various proposals for concise licenses of the reciprocal kind
-but none of them have garnered significant usage,
-and most haven't been included in curated lists of software licenses.
+A few proposals for concise, readable copyleft licenses have been put forth,
+but they tend to lack institutional recognition
+(from the OSI, FSF, and in many cases even an SPDX identifier)
+and have generally not achieved broad adoption.
+A notable example is Kyle E. Mitchell's [Parity Public License](https://paritylicense.com),
+among others like [Round Robin](https://roundrobinlicense.com),
+[Patches Back](https://github.com/berneout/patches-back-public-license),
+[Maximaleft](https://github.com/berneout/maximaleft) and
+[Libre Source](https://github.com/MoritzMaxeiner/libre-source-license).
 
-Several such options are licenses proposed by Kyle E. Mitchell,
-most notably the [Parity Public License][parity],
-but also [Round Robin][round-robin], [Patches Back][patches-back] and [Maximaleft][maximaleft].
-There is also the [Libre Source][libre-source],
-a derivative of the Patches Back license proposed by Moritz Maxeiner,
-which has since been abandoned (as has Patches Back, for that matter).
-
-[parity]: https://paritylicense.com
-[round-robin]: https://roundrobinlicense.com
-[maximaleft]: https://github.com/berneout/maximaleft
-[patches-back]: https://github.com/berneout/patches-back-public-license
-[libre-source]: https://github.com/MoritzMaxeiner/libre-source-license
-
-Of these, the Parity is the only one seeing any notable [adoption][parity-usage]
-and the only one with an [SPDX identifier](https://spdx.org/licenses/Parity-7.0.0.html);
-but it is not recognized by the OSI or the FSF, and neither are any of the others.
-
-[parity-usage]: https://github.com/search?q=%22Parity%20Public%20License%22+path%3A%2F%5E%28licen%5Bcs%5De%7Ccopying%29%28%5C.md%7C%5C.txt%29%3F%24%2F+NOT+is%3Afork+NOT+is%3Aarchived&type=code
-
-Two licenses, however, stand out from the set:
+Two licenses, however, stand out from this set:
 
 - The Simple Public License 2.0 (SimPL-2.0)
 - The Microsoft Reciprocal License (MS-RL)
@@ -70,8 +57,7 @@ Two licenses, however, stand out from the set:
 
 SimPL was originally drafted by Robert W. Gomulkiewicz,
 an intellectual property law scholar from the University of Washington School of Law,
-in a [2005 paper](https://houstonlawreview.org/article/4788-general-public-license-3-0-hacking-the-free-software-movements-constitution)
-published in volume 42, issue 4 of the _Houston Law Review_.
+and published in a [2005 paper in the Houston Law Review][hous-law-rev-2025].
 
 Its own text describes it as a plain-language implementation of GPL 2.0.
 That makes it an interesting option for projects that want reciprocity
@@ -82,11 +68,12 @@ is that it has been formally [approved by the OSI](https://opensource.org/licens
 It also has an [SPDX identifier](https://spdx.org/licenses/SimPL-2.0.html) (`SimPL-2.0`),
 and even an [entry at tl;drLegal](https://www.tldrlegal.com/license/simple-public-license-2-0-simpl).
 
-It's worth noting that, despite the SimPL's explicit design goal of matching the terms of GPL 2.0,
-the FSF has not explicitly assessed the SimPL in its [list of free licenses][fsf-license-list];
-therefore, although it is almost certain to match the FSF's criteria for free software licenses,
-and is also likely GPL-compatible, neither conclusion has been confirmed by the FSF yet.
+Given that SimPL was written with the explicit goal of matching the terms of GPL 2.0,
+it complies by design with the FSF's criteria for free software licenses,
+and is therefore likely GPL-compatible
+— though the FSF has not yet [declared that explicitly][fsf-license-list].
 
+[hous-law-rev-2025]: https://houstonlawreview.org/article/4788-general-public-license-3-0-hacking-the-free-software-movements-constitution
 [fsf-license-list]: https://www.gnu.org/licenses/license-list.en.html
 
 ### Microsoft Reciprocal License (MS-RL)
@@ -97,8 +84,8 @@ In the corresponding [discussion][ms-rl-osi] on the OSI license list,
 Microsoft explicitly stated that it sought to draft a license that was
 "simple, short, and easy-to-understand".
 
-The license has been [approved by the OSI](https://opensource.org/license/ms-rl),
-and it also has an [SPDX identifier](https://spdx.org/licenses/MS-RL.html) (`MS-RL`)
+Like the SimPL 2.0, MS-RL is [approved by the OSI](https://opensource.org/license/ms-rl),
+has a registered [SPDX identifier](https://spdx.org/licenses/MS-RL.html) (`MS-RL`)
 and an entry at [tl;drLegal](https://www.tldrlegal.com/license/microsoft-reciprocal-license-ms-rl).
 
 Interestingly (especially in contrast to the SimPL),
@@ -111,6 +98,8 @@ though it notes that it is **not** GPL-compatible.
 ### Comparison: SimPL 2.0 vs. MS-RL
 
 #### Side-by-side license text
+
+Here are both licenses in full, showing how they easily fit on a single page of text:
 
 <table style="width: clamp(100%, 80vw, 140em); position: relative; left: 50%; transform: translate(-50%); border-collapse: separate; border-spacing: 0.5em 0;">
 <tr><td style="width: 50%; vertical-align: top; background: #f9f9f0; line-height: 1.25;">
@@ -268,7 +257,8 @@ so feel free to ignore them.
 Points 2 and 3, while being arguably somewhat minor,
 are nevertheless valid arguments in favor of the SimPL.
 
-Point 1 is perhaps the most important for someone making a choice between the two:
+The distinction from Point 1, regarding copyleft scope,
+is perhaps the most important factor for someone making a choice between the two:
 MS-RL differs from SimPL in that its reciprocity (share-alike) requirements
 apply only to individual files of the derivative work (clause 3.A),
 i.e. only those that contain code from the covered software,
@@ -294,13 +284,13 @@ depending on the individual preferences.
 
 ## Conclusion
 
-Based on the discussion above, it can be concluded that
-**SimPL 2.0 and MS-RL are viable options for concise, layman-friendly reciprocal licenses**,
-featuring institutional recognition and established ecosystem metadata,
-and thus filling the gap of a simple, readable alternative to copyleft licenses
-such as the GPL or the MPL.
+If you want a short, readable copyleft license, **SimPL 2.0** is a great choice:
+it is institutionally recognized, ecosystem-ready, shorter than the alternatives,
+and explicitly designed to be the plain-language equivalent of the GPL.
 
-In other words, **SimPL and MS-RL are the copyleft analogs to short permissive licenses like the MIT or BSD**.
+If you specifically prefer file-level copyleft
+(where only the files containing your code need to be shared back, rather than the project as a whole),
+**MS-RL** is a solid runner-up that fulfills the same goal of simple, approachable licensing.
 
 ## How to use SimPL or MS-RL in a software project
 
